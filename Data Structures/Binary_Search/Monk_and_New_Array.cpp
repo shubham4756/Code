@@ -24,6 +24,7 @@ void solve() {
     for (long int i = 0; i < n; i++) {
         for (long int j = 0; j < m; j++)
             cin >> mat[i][j];
+        sort(mat[i],mat[i]+m);
     }
 
     long int ans=INT_MAX;
